@@ -1,0 +1,29 @@
+Create a new express project for a simple calculator API
+Create a CommonJS calculator module with functions for:
+
+adding numbers
+subtracting numbers
+multiplying numbers
+dividing numbers
+checking if a number is even
+checking if a number is odd
+getting the factorial of a number (optional)
+checking if a number is prime (optional)
+
+Create GET routes for all of your calculator functionality in the index.js file using Express. You should use query parameters and path variables as you see appropriate for this task to pass the data in.
+The responses from your API should take the following form in JSON:
+
+
+// Example response 1
+{
+    "operation": "division",
+  "number1": 10,
+  "number2": 4
+  "result": 2.5
+}
+// Example response 2
+{
+    "operation": "factorial",
+  "number": 10,
+  "result": 3628800
+}
